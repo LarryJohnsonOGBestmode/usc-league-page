@@ -5,17 +5,25 @@ import { dynasty } from './utils/helper';
     const today = new Date();
     const resources = [
         {
-            name: "FTN Fantasy",
-            url: "https://www.ftnfantasy.com/nfl",
+            name: "Keep Trade Cut",
+            url: "https://keeptradecut.com/",
             icon: "insights",
-            premium: true,
+            premium: false,
             separator: true,
         },
         {
-            name: "The Fantasy Footballers",
-            url: "https://www.thefantasyfootballers.com/",
-            icon: "podcasts",
-            premium: true,
+            name: "Dynasty Daddy",
+            url: "https://dynasty-daddy.com/",
+            icon: "insights",
+            premium: false,
+            separator: true,
+            dynastyOnly: true,
+        },
+        {
+            name: "PFF Dynasty Trade Calculator",
+            url: "https://www.youtube.com/watch?v=a3Z7zEc7AXQ",
+            icon: "insights",
+            premium: false,
             separator: true,
         },
         {
@@ -51,17 +59,16 @@ import { dynasty } from './utils/helper';
             dynastyOnly: true,
         },
         {
-            name: "Reddit Fantasy Football",
-            url: "https://www.reddit.com/r/fantasyfootball/",
-            icon: "article",
+            name: "nflfastR",
+            url: "https://mrcaseb.github.io/pages_dummy/index.html",
+            icon: "calculate",
             premium: false,
             separator: true,
-            redraftOnly: true,
         },
         {
-            name: "Dynasty 101 Trade Calculator",
-            url: "https://dynasty101.com/trade-calculator/",
-            icon: "calculate",
+            name: "Player Profiler Dynasty Rankings",
+            url: "https://www.playerprofiler.com/fantasy-football-rankings/dynasty/",
+            icon: "insights",
             premium: false,
             separator: true,
             dynastyOnly: true,
@@ -81,13 +88,6 @@ import { dynasty } from './utils/helper';
             premium: false,
             separator: true,
             redraftOnly: true,
-        },
-        {
-            name: "Reddit FF Trade Analyzer",
-            url: "https://www.reddit.com/r/TradeAnalyzerFF/",
-            icon: "assessment",
-            premium: false,
-            separator: false,
         },
     ];
 </script>
