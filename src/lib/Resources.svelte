@@ -20,8 +20,15 @@ import { dynasty } from './utils/helper';
             dynastyOnly: true,
         },
         {
-            name: "PFF Dynasty Trade Calculator",
-            url: "https://www.youtube.com/watch?v=a3Z7zEc7AXQ",
+            name: "Establish the Run",
+            url: "https://establishtherun.com/",
+            icon: "insights",
+            premium: true,
+            separator: true,
+        },
+        {
+            name: "Great Fantasy Pros Video Series",
+            url: "https://youtu.be/DX_SAZpT3SI?t=54",
             icon: "insights",
             premium: false,
             separator: true,
