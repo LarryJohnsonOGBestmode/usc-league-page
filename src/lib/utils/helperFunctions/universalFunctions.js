@@ -208,8 +208,11 @@ export const getTeamData = (users, ownerID) => {
 }
 
 export const getAvatarFromTeamManagers = (teamManagers, rosterID, year) => {
-    if(!year || year > teamManagers.currentSeason) {
-        year = teamManagers.currentSeason;
+    year = teamManagers.currentSeason;
+	// The rest of your function...
+    const avatar = teamManagers.teamManagersMap[year][rosterID]?.team?.avatar;
+    if (!avatar) {
+        return teamManagers.teamManagersMap[teamManagers.currentSeason][rosterID].team.avatar;
     }
     return teamManagers.teamManagersMap[year][rosterID].team.avatar;
 }
